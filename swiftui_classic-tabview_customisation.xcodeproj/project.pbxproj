@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABA7B039B1283A84E1FEE705 /* swiftui_classic_tabview_customisationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BFF7BF02ADA685FB54B9 /* swiftui_classic_tabview_customisationApp.swift */; };
+		ABA7B2009C2E6E30B6C4995F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA7B05A80C7EE68AD035AD8 /* Assets.xcassets */; };
+		ABA7B45105E8CEBE3CB0B9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA7B05A80C7EE68AD035AD8 /* Assets.xcassets */; };
+		ABA7B6DA959B94F85A402420 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B4DB64D9CA2CBCE69B9C /* ContentView.swift */; };
+		ABA7BBB754EFB9E805CEAABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B4DB64D9CA2CBCE69B9C /* ContentView.swift */; };
+		ABA7BE02D87F8DFCD2858EEA /* swiftui_classic_tabview_customisationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BFF7BF02ADA685FB54B9 /* swiftui_classic_tabview_customisationApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABA7B05A80C7EE68AD035AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA7B3B94631465825A446E2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		ABA7B3D31D8D4D139F76A1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		ABA7B4DB64D9CA2CBCE69B9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABA7BAC4A4C460554B4404B2 /* swiftui_classic-tabview_customisation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_classic-tabview_customisation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA7BB8408A2F952442A2633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		ABA7BFC830018D454D64C7FF /* swiftui_classic-tabview_customisation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_classic-tabview_customisation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABA7BFF7BF02ADA685FB54B9 /* swiftui_classic_tabview_customisationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_classic_tabview_customisationApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABA7B156C190193C18EFDCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA7B588105AAAE071170B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABA7B2249F326E96D1E7BEB8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7BB8408A2F952442A2633 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		ABA7B63D6C419ADD6D7C48D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7BFC830018D454D64C7FF /* swiftui_classic-tabview_customisation.app */,
+				ABA7BAC4A4C460554B4404B2 /* swiftui_classic-tabview_customisation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA7B75B1264F8F1F1CA915C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7B3D31D8D4D139F76A1A9 /* Info.plist */,
+				ABA7B3B94631465825A446E2 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		ABA7BC25F4A592CBF658ECEA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7B05A80C7EE68AD035AD8 /* Assets.xcassets */,
+				ABA7BFF7BF02ADA685FB54B9 /* swiftui_classic_tabview_customisationApp.swift */,
+				ABA7B4DB64D9CA2CBCE69B9C /* ContentView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ABA7BCB5EC1F0BD2E93B8EF1 = {
+			isa = PBXGroup;
+			children = (
+				ABA7B63D6C419ADD6D7C48D5 /* Products */,
+				ABA7BC25F4A592CBF658ECEA /* Shared */,
+				ABA7B2249F326E96D1E7BEB8 /* iOS */,
+				ABA7B75B1264F8F1F1CA915C /* macOS */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABA7B1DB3406CF36CC882A36 /* swiftui_classic-tabview_customisation (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA7B8ACFA96764CE8F575A6 /* Build configuration list for PBXNativeTarget "swiftui_classic-tabview_customisation (macOS)" */;
+			buildPhases = (
+				ABA7BB49C9C3A8BA7212BF45 /* Sources */,
+				ABA7B156C190193C18EFDCC2 /* Frameworks */,
+				ABA7B732B34D8FD3844A3A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui_classic-tabview_customisation (macOS)";
+			productName = "swiftui_classic-tabview_customisation (macOS)";
+			productReference = ABA7BAC4A4C460554B4404B2 /* swiftui_classic-tabview_customisation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABA7B9A594277E280016E33A /* swiftui_classic-tabview_customisation (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA7B38F8836FC9C66B15663 /* Build configuration list for PBXNativeTarget "swiftui_classic-tabview_customisation (iOS)" */;
+			buildPhases = (
+				ABA7B8FC23139F7895B5064F /* Sources */,
+				ABA7B588105AAAE071170B6B /* Frameworks */,
+				ABA7B56B8DF90271AAA67704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui_classic-tabview_customisation (iOS)";
+			productName = "swiftui_classic-tabview_customisation (iOS)";
+			productReference = ABA7BFC830018D454D64C7FF /* swiftui_classic-tabview_customisation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABA7B8875C3D3B5640C7C619 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = ABA7BE492A744116B0C7CD91 /* Build configuration list for PBXProject "swiftui_classic-tabview_customisation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABA7BCB5EC1F0BD2E93B8EF1;
+			productRefGroup = ABA7B63D6C419ADD6D7C48D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABA7B9A594277E280016E33A /* swiftui_classic-tabview_customisation (iOS) */,
+				ABA7B1DB3406CF36CC882A36 /* swiftui_classic-tabview_customisation (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABA7B56B8DF90271AAA67704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA7B2009C2E6E30B6C4995F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA7B732B34D8FD3844A3A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA7B45105E8CEBE3CB0B9B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABA7B8FC23139F7895B5064F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA7BE02D87F8DFCD2858EEA /* swiftui_classic_tabview_customisationApp.swift in Sources */,
+				ABA7B6DA959B94F85A402420 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA7BB49C9C3A8BA7212BF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA7B039B1283A84E1FEE705 /* swiftui_classic_tabview_customisationApp.swift in Sources */,
+				ABA7BBB754EFB9E805CEAABB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABA7B06BEBAFC496380505D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexis-ag.swiftui_classic-tabview_customisation";
+				PRODUCT_NAME = "swiftui_classic-tabview_customisation";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABA7B105AEA6DB910E3AA529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexis-ag.swiftui_classic-tabview_customisation";
+				PRODUCT_NAME = "swiftui_classic-tabview_customisation";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABA7B3AD2CB6C0C9904B2B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ABA7BA6283F5357A54506DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABA7BBF8F30D166BF5554C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alexis-ag.swiftui_classic-tabview_customisation";
+				PRODUCT_NAME = "swiftui_classic-tabview_customisation";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ABA7BDFADCEC7455C2221398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alexis-ag.swiftui_classic-tabview_customisation";
+				PRODUCT_NAME = "swiftui_classic-tabview_customisation";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABA7B38F8836FC9C66B15663 /* Build configuration list for PBXNativeTarget "swiftui_classic-tabview_customisation (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7BDFADCEC7455C2221398 /* Debug */,
+				ABA7B06BEBAFC496380505D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA7B8ACFA96764CE8F575A6 /* Build configuration list for PBXNativeTarget "swiftui_classic-tabview_customisation (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7B105AEA6DB910E3AA529 /* Debug */,
+				ABA7BBF8F30D166BF5554C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABA7BE492A744116B0C7CD91 /* Build configuration list for PBXProject "swiftui_classic-tabview_customisation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA7BA6283F5357A54506DA7 /* Debug */,
+				ABA7B3AD2CB6C0C9904B2B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABA7B8875C3D3B5640C7C619 /* Project object */;
+}
