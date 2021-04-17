@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABA7B039B1283A84E1FEE705 /* swiftui_classic_tabview_customisationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BFF7BF02ADA685FB54B9 /* swiftui_classic_tabview_customisationApp.swift */; };
+		ABA7B009BFE5B544785835C8 /* EmptyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B106C80DC9A624C72496 /* EmptyTab.swift */; };
+		ABA7B039B1283A84E1FEE705 /* app.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BFF7BF02ADA685FB54B9 /* app.swift */; };
+		ABA7B077DFC7B91A9652A182 /* RootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BC6E54D855A9FF551E54 /* RootContainer.swift */; };
+		ABA7B0A71392AD55A1365614 /* DashboardContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B9D0615593C034EB0ADF /* DashboardContainer.swift */; };
+		ABA7B139998DA5004946AA95 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B12BF4F937FD03EC27DF /* CustomTabView.swift */; };
 		ABA7B2009C2E6E30B6C4995F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA7B05A80C7EE68AD035AD8 /* Assets.xcassets */; };
+		ABA7B2BE0B1DEBBD700D8EC2 /* CustomTabViewProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B499A2EF23E5D153EDA7 /* CustomTabViewProps.swift */; };
+		ABA7B3FC8312ED8D17E68F31 /* EmptyTapProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B8D4CCBE2CB517DB8921 /* EmptyTapProps.swift */; };
+		ABA7B4235921F9B08FC3D6A1 /* SettingsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BC86DB2E2AF46DDAA654 /* SettingsContainer.swift */; };
 		ABA7B45105E8CEBE3CB0B9B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA7B05A80C7EE68AD035AD8 /* Assets.xcassets */; };
-		ABA7B6DA959B94F85A402420 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B4DB64D9CA2CBCE69B9C /* ContentView.swift */; };
-		ABA7BBB754EFB9E805CEAABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B4DB64D9CA2CBCE69B9C /* ContentView.swift */; };
-		ABA7BE02D87F8DFCD2858EEA /* swiftui_classic_tabview_customisationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BFF7BF02ADA685FB54B9 /* swiftui_classic_tabview_customisationApp.swift */; };
+		ABA7B4E496C4F4BE447A6B9B /* BottomNavTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BDA9DD5AA7373ABEACD4 /* BottomNavTab.swift */; };
+		ABA7B4FC09B41C6FC9007871 /* RootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BC6E54D855A9FF551E54 /* RootContainer.swift */; };
+		ABA7B79CE94EC9FE5BEF3C36 /* ContactsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BE66182C747762152940 /* ContactsContainer.swift */; };
+		ABA7B7BF385C08E607061B1D /* CircleIconProps.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BD4E14B7167285509176 /* CircleIconProps.swift */; };
+		ABA7B950E1808C0609BAA978 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B447CF5497B1D5C0EF63 /* ColorExt.swift */; };
+		ABA7BAED5DC78E66C57358C6 /* CircleIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BBA2851101F6149CD8EB /* CircleIcon.swift */; };
+		ABA7BDF01BB5AE47F78A7D7A /* MessagesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B7E73A75893D15489670 /* MessagesContainer.swift */; };
+		ABA7BE02D87F8DFCD2858EEA /* app.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7BFF7BF02ADA685FB54B9 /* app.swift */; };
+		ABA7BED064D03443BE0DCFF3 /* EventsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA7B15C89515972793EE0BB /* EventsContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABA7B05A80C7EE68AD035AD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABA7B106C80DC9A624C72496 /* EmptyTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyTab.swift; sourceTree = "<group>"; };
+		ABA7B12BF4F937FD03EC27DF /* CustomTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		ABA7B15C89515972793EE0BB /* EventsContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsContainer.swift; sourceTree = "<group>"; };
 		ABA7B3B94631465825A446E2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		ABA7B3D31D8D4D139F76A1A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		ABA7B4DB64D9CA2CBCE69B9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABA7B447CF5497B1D5C0EF63 /* ColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		ABA7B499A2EF23E5D153EDA7 /* CustomTabViewProps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabViewProps.swift; sourceTree = "<group>"; };
+		ABA7B7E73A75893D15489670 /* MessagesContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesContainer.swift; sourceTree = "<group>"; };
+		ABA7B8D4CCBE2CB517DB8921 /* EmptyTapProps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyTapProps.swift; sourceTree = "<group>"; };
+		ABA7B9D0615593C034EB0ADF /* DashboardContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardContainer.swift; sourceTree = "<group>"; };
 		ABA7BAC4A4C460554B4404B2 /* swiftui_classic-tabview_customisation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_classic-tabview_customisation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA7BB8408A2F952442A2633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		ABA7BBA2851101F6149CD8EB /* CircleIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleIcon.swift; sourceTree = "<group>"; };
+		ABA7BC6E54D855A9FF551E54 /* RootContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootContainer.swift; sourceTree = "<group>"; };
+		ABA7BC86DB2E2AF46DDAA654 /* SettingsContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsContainer.swift; sourceTree = "<group>"; };
+		ABA7BD4E14B7167285509176 /* CircleIconProps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleIconProps.swift; sourceTree = "<group>"; };
+		ABA7BDA9DD5AA7373ABEACD4 /* BottomNavTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomNavTab.swift; sourceTree = "<group>"; };
+		ABA7BE66182C747762152940 /* ContactsContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsContainer.swift; sourceTree = "<group>"; };
 		ABA7BFC830018D454D64C7FF /* swiftui_classic-tabview_customisation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui_classic-tabview_customisation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABA7BFF7BF02ADA685FB54B9 /* swiftui_classic_tabview_customisationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_classic_tabview_customisationApp.swift; sourceTree = "<group>"; };
+		ABA7BFF7BF02ADA685FB54B9 /* app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +78,32 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
+		ABA7B27BA1C7E98F335D1F7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7BDA9DD5AA7373ABEACD4 /* BottomNavTab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABA7B52A3F63F7BD5F565012 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7BC2C73BBD0B747D7D665 /* CustomTabView */,
+				ABA7BE4D3670265C7B18CE93 /* EmptyTab */,
+				ABA7B87D63F6FAA06496764F /* CircleIcon */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ABA7B591D88B082D4D5C2CD4 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7BE66182C747762152940 /* ContactsContainer.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
 		ABA7B63D6C419ADD6D7C48D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +111,14 @@
 				ABA7BAC4A4C460554B4404B2 /* swiftui_classic-tabview_customisation.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ABA7B664DF0290009AB63B38 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7BC86DB2E2AF46DDAA654 /* SettingsContainer.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		ABA7B75B1264F8F1F1CA915C /* macOS */ = {
@@ -70,14 +130,83 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		ABA7B8623E37B4E5A9CB919C /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7BC6E54D855A9FF551E54 /* RootContainer.swift */,
+				ABA7B27BA1C7E98F335D1F7B /* Models */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		ABA7B87D63F6FAA06496764F /* CircleIcon */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7BBA2851101F6149CD8EB /* CircleIcon.swift */,
+				ABA7BD4E14B7167285509176 /* CircleIconProps.swift */,
+			);
+			path = CircleIcon;
+			sourceTree = "<group>";
+		};
+		ABA7B8A9440699AC2A7C1FAE /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7B15C89515972793EE0BB /* EventsContainer.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		ABA7B9B81D9DDE8645C1F919 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7B9D0615593C034EB0ADF /* DashboardContainer.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		ABA7B9D991CF6C87EBE9DF27 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7BF91A44158185D9B0345 /* Pages */,
+				ABA7B52A3F63F7BD5F565012 /* Components */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		ABA7BB9EA52BF7161E8E30B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7B447CF5497B1D5C0EF63 /* ColorExt.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		ABA7BC25F4A592CBF658ECEA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
 				ABA7B05A80C7EE68AD035AD8 /* Assets.xcassets */,
-				ABA7BFF7BF02ADA685FB54B9 /* swiftui_classic_tabview_customisationApp.swift */,
-				ABA7B4DB64D9CA2CBCE69B9C /* ContentView.swift */,
+				ABA7BFF7BF02ADA685FB54B9 /* app.swift */,
+				ABA7B9D991CF6C87EBE9DF27 /* Presentation */,
+				ABA7BB9EA52BF7161E8E30B4 /* Utils */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		ABA7BC2C73BBD0B747D7D665 /* CustomTabView */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7B12BF4F937FD03EC27DF /* CustomTabView.swift */,
+				ABA7B499A2EF23E5D153EDA7 /* CustomTabViewProps.swift */,
+			);
+			path = CustomTabView;
+			sourceTree = "<group>";
+		};
+		ABA7BC35C595BB6E19266D1E /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7B7E73A75893D15489670 /* MessagesContainer.swift */,
+			);
+			path = Messages;
 			sourceTree = "<group>";
 		};
 		ABA7BCB5EC1F0BD2E93B8EF1 = {
@@ -88,6 +217,28 @@
 				ABA7B2249F326E96D1E7BEB8 /* iOS */,
 				ABA7B75B1264F8F1F1CA915C /* macOS */,
 			);
+			sourceTree = "<group>";
+		};
+		ABA7BE4D3670265C7B18CE93 /* EmptyTab */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7B106C80DC9A624C72496 /* EmptyTab.swift */,
+				ABA7B8D4CCBE2CB517DB8921 /* EmptyTapProps.swift */,
+			);
+			path = EmptyTab;
+			sourceTree = "<group>";
+		};
+		ABA7BF91A44158185D9B0345 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7B664DF0290009AB63B38 /* Settings */,
+				ABA7BC35C595BB6E19266D1E /* Messages */,
+				ABA7B8A9440699AC2A7C1FAE /* Events */,
+				ABA7B9B81D9DDE8645C1F919 /* Dashboard */,
+				ABA7B591D88B082D4D5C2CD4 /* Contacts */,
+				ABA7B8623E37B4E5A9CB919C /* Root */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,8 +325,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA7BE02D87F8DFCD2858EEA /* swiftui_classic_tabview_customisationApp.swift in Sources */,
-				ABA7B6DA959B94F85A402420 /* ContentView.swift in Sources */,
+				ABA7BE02D87F8DFCD2858EEA /* app.swift in Sources */,
+				ABA7B4235921F9B08FC3D6A1 /* SettingsContainer.swift in Sources */,
+				ABA7BDF01BB5AE47F78A7D7A /* MessagesContainer.swift in Sources */,
+				ABA7BED064D03443BE0DCFF3 /* EventsContainer.swift in Sources */,
+				ABA7B0A71392AD55A1365614 /* DashboardContainer.swift in Sources */,
+				ABA7B79CE94EC9FE5BEF3C36 /* ContactsContainer.swift in Sources */,
+				ABA7B077DFC7B91A9652A182 /* RootContainer.swift in Sources */,
+				ABA7B4E496C4F4BE447A6B9B /* BottomNavTab.swift in Sources */,
+				ABA7B139998DA5004946AA95 /* CustomTabView.swift in Sources */,
+				ABA7B2BE0B1DEBBD700D8EC2 /* CustomTabViewProps.swift in Sources */,
+				ABA7B009BFE5B544785835C8 /* EmptyTab.swift in Sources */,
+				ABA7B3FC8312ED8D17E68F31 /* EmptyTapProps.swift in Sources */,
+				ABA7B950E1808C0609BAA978 /* ColorExt.swift in Sources */,
+				ABA7BAED5DC78E66C57358C6 /* CircleIcon.swift in Sources */,
+				ABA7B7BF385C08E607061B1D /* CircleIconProps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,8 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA7B039B1283A84E1FEE705 /* swiftui_classic_tabview_customisationApp.swift in Sources */,
-				ABA7BBB754EFB9E805CEAABB /* ContentView.swift in Sources */,
+				ABA7B039B1283A84E1FEE705 /* app.swift in Sources */,
+				ABA7B4FC09B41C6FC9007871 /* RootContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

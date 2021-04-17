@@ -1,5 +1,5 @@
 //
-//  swiftui_classic_tabview_customisationApp.swift
+//  app.swift
 //  Shared
 //
 //  Created by Alexis Grigorev on 17.04.2021.
